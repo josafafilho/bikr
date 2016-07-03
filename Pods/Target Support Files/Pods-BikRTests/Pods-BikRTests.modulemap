@@ -1,0 +1,6 @@
+framework module Pods_BikRTests {
+  umbrella header "Pods-BikRTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

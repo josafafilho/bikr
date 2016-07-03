@@ -15,6 +15,9 @@
 		02300F9B1D293D6F00B86BBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02300F991D293D6F00B86BBF /* LaunchScreen.storyboard */; };
 		02300FA61D293D7000B86BBF /* BikRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02300FA51D293D7000B86BBF /* BikRTests.swift */; };
 		02300FB11D293D7000B86BBF /* BikRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02300FB01D293D7000B86BBF /* BikRUITests.swift */; };
+		29347CB4D6C44EB595E48B55 /* Pods_BikRTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FBED29F932D8D9EC7CDFBB6 /* Pods_BikRTests.framework */; };
+		C808434C83756D7A85653D28 /* Pods_BikR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FCB081DB9D0E60EAFC9187 /* Pods_BikR.framework */; };
+		CD43450BA0ADBA1C3564E4AD /* Pods_BikRUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C57367CD7B8C21E9B6046271 /* Pods_BikRUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,15 @@
 		02300FAC1D293D7000B86BBF /* BikRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BikRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02300FB01D293D7000B86BBF /* BikRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikRUITests.swift; sourceTree = "<group>"; };
 		02300FB21D293D7000B86BBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FBED29F932D8D9EC7CDFBB6 /* Pods_BikRTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BikRTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70C650B26C9D4F4CF2C36CAD /* Pods-BikRTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikRTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BikRTests/Pods-BikRTests.release.xcconfig"; sourceTree = "<group>"; };
+		76F522867E37E97B2E62682C /* Pods-BikR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BikR/Pods-BikR.debug.xcconfig"; sourceTree = "<group>"; };
+		94AEB38591C80349738012C2 /* Pods-BikR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikR.release.xcconfig"; path = "Pods/Target Support Files/Pods-BikR/Pods-BikR.release.xcconfig"; sourceTree = "<group>"; };
+		A8FCB081DB9D0E60EAFC9187 /* Pods_BikR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BikR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C4BA617EEFA73B39462091 /* Pods-BikRTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikRTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BikRTests/Pods-BikRTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C57367CD7B8C21E9B6046271 /* Pods_BikRUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BikRUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB86AFF5E279BA90F6E09B59 /* Pods-BikRUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikRUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BikRUITests/Pods-BikRUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFE1955EB34E1FEF615CABB6 /* Pods-BikRUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikRUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BikRUITests/Pods-BikRUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C808434C83756D7A85653D28 /* Pods_BikR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29347CB4D6C44EB595E48B55 /* Pods_BikRTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD43450BA0ADBA1C3564E4AD /* Pods_BikRUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				02300FA41D293D7000B86BBF /* BikRTests */,
 				02300FAF1D293D7000B86BBF /* BikRUITests */,
 				02300F8B1D293D6F00B86BBF /* Products */,
+				C3B80EDDD84836216F66BE2E /* Pods */,
+				0A5F1118E6992D6E86E4ABA8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,29 @@
 			path = BikRUITests;
 			sourceTree = "<group>";
 		};
+		0A5F1118E6992D6E86E4ABA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8FCB081DB9D0E60EAFC9187 /* Pods_BikR.framework */,
+				4FBED29F932D8D9EC7CDFBB6 /* Pods_BikRTests.framework */,
+				C57367CD7B8C21E9B6046271 /* Pods_BikRUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3B80EDDD84836216F66BE2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76F522867E37E97B2E62682C /* Pods-BikR.debug.xcconfig */,
+				94AEB38591C80349738012C2 /* Pods-BikR.release.xcconfig */,
+				C2C4BA617EEFA73B39462091 /* Pods-BikRTests.debug.xcconfig */,
+				70C650B26C9D4F4CF2C36CAD /* Pods-BikRTests.release.xcconfig */,
+				EB86AFF5E279BA90F6E09B59 /* Pods-BikRUITests.debug.xcconfig */,
+				FFE1955EB34E1FEF615CABB6 /* Pods-BikRUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02300FB51D293D7000B86BBF /* Build configuration list for PBXNativeTarget "BikR" */;
 			buildPhases = (
+				5E441294CD8086E1A2C4640C /* [CP] Check Pods Manifest.lock */,
 				02300F861D293D6F00B86BBF /* Sources */,
 				02300F871D293D6F00B86BBF /* Frameworks */,
 				02300F881D293D6F00B86BBF /* Resources */,
+				EF3BAC2A09AF5BC668512C69 /* [CP] Embed Pods Frameworks */,
+				BE51819AEB0A1E666AD28D89 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02300FB81D293D7000B86BBF /* Build configuration list for PBXNativeTarget "BikRTests" */;
 			buildPhases = (
+				9385D83192B36ACDA2AEDF17 /* [CP] Check Pods Manifest.lock */,
 				02300F9D1D293D7000B86BBF /* Sources */,
 				02300F9E1D293D7000B86BBF /* Frameworks */,
 				02300F9F1D293D7000B86BBF /* Resources */,
+				D94668F78558B4F3AECCE5F2 /* [CP] Embed Pods Frameworks */,
+				0877AD37EB54614AB4F36FB4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02300FBB1D293D7000B86BBF /* Build configuration list for PBXNativeTarget "BikRUITests" */;
 			buildPhases = (
+				FC462A41CF9856CF4D225134 /* [CP] Check Pods Manifest.lock */,
 				02300FA81D293D7000B86BBF /* Sources */,
 				02300FA91D293D7000B86BBF /* Frameworks */,
 				02300FAA1D293D7000B86BBF /* Resources */,
+				DE9791C6F1D2708D7A5D2631 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +244,7 @@
 				TargetAttributes = {
 					02300F891D293D6F00B86BBF = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7ZTMM7N8L2;
 					};
 					02300FA01D293D7000B86BBF = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -253,6 +302,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0877AD37EB54614AB4F36FB4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BikRTests/Pods-BikRTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E441294CD8086E1A2C4640C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9385D83192B36ACDA2AEDF17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BE51819AEB0A1E666AD28D89 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BikR/Pods-BikR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D94668F78558B4F3AECCE5F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BikRTests/Pods-BikRTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE9791C6F1D2708D7A5D2631 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BikRUITests/Pods-BikRUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF3BAC2A09AF5BC668512C69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BikR/Pods-BikR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC462A41CF9856CF4D225134 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		02300F861D293D6F00B86BBF /* Sources */ = {
@@ -401,28 +573,37 @@
 		};
 		02300FB61D293D7000B86BBF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76F522867E37E97B2E62682C /* Pods-BikR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BikR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.josafafilho.BikR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		02300FB71D293D7000B86BBF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94AEB38591C80349738012C2 /* Pods-BikR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BikR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.josafafilho.BikR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 		02300FB91D293D7000B86BBF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2C4BA617EEFA73B39462091 /* Pods-BikRTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BikRTests/Info.plist;
@@ -435,6 +616,7 @@
 		};
 		02300FBA1D293D7000B86BBF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70C650B26C9D4F4CF2C36CAD /* Pods-BikRTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BikRTests/Info.plist;
@@ -447,6 +629,7 @@
 		};
 		02300FBC1D293D7000B86BBF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB86AFF5E279BA90F6E09B59 /* Pods-BikRUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = BikRUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -458,6 +641,7 @@
 		};
 		02300FBD1D293D7000B86BBF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFE1955EB34E1FEF615CABB6 /* Pods-BikRUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = BikRUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -486,6 +670,7 @@
 				02300FB71D293D7000B86BBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02300FB81D293D7000B86BBF /* Build configuration list for PBXNativeTarget "BikRTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +679,7 @@
 				02300FBA1D293D7000B86BBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02300FBB1D293D7000B86BBF /* Build configuration list for PBXNativeTarget "BikRUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +688,7 @@
 				02300FBD1D293D7000B86BBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
